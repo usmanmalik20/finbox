@@ -91,7 +91,7 @@ return CMap::mergeArray(
                 ),
 
                 'db' => array(
-                    'connectionString' => 'mysql:host=localhost;dbname=yiiapps_startup',
+                    'connectionString' => 'mysql:host=localhost;dbname=finbox',
                     'emulatePrepare' => true,
                     'username' => 'root',
                     'password' => '',
