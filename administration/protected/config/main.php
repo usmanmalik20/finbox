@@ -44,7 +44,7 @@ return CMap::mergeArray(
             // @see http://www.yiiframework.com/doc/api/1.1/CApplication#language-detail
             'language' => 'en',
             // using bootstrap theme ? not needed with extension
-            'theme' => 'backend',
+            'theme'=>'uadmincreative',
             // setup import paths aliases
             // @see http://www.yiiframework.com/doc/api/1.1/YiiBase#import-detail
             'import' => array(
@@ -93,6 +93,7 @@ return CMap::mergeArray(
                 ),
                 'db' => array(
                     'connectionString' => 'mysql:host=localhost;dbname=yiiapps_startup',
+                
                     'emulatePrepare' => true,
                     'username' => 'root',
                     'password' => '',
