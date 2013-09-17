@@ -36,7 +36,7 @@ return CMap::mergeArray(
             // set parameters
             'params' => $params,
             //name of site
-            'name' => 'YiiApps.com Startup',
+            'name' => 'FinBox Startup',
             // preload components required before running applications
             // @see http://www.yiiframework.com/doc/api/1.1/CModule#preload-detail
             'preload' => array('log', 'bootstrap'),
